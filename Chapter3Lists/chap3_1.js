@@ -146,3 +146,5 @@ names.prev();
 console.log(names.getElement(), 'getElement');
 
 console.log(names.toString(), 'toString');
+
+module.exports = List
