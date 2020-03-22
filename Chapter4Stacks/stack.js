@@ -18,19 +18,7 @@ function Stack() {
       this.dataStore.pop()
     }
     this.top = 0
-    console.log(this.dataStore, 'data')
   }
 }
 
-let st1 = new Stack()
-
-st1.push('nice')
-st1.push('cool')
-st1.push('sweet')
-st1.push('nice')
-
-console.log(st1.dataStore, 'store')
-st1.clear()
-console.log(st1.dataStore, 'store')
-st1.push('nice')
-console.log(st1.dataStore, 'store')
+module.exports = Stack 
